@@ -1,0 +1,3 @@
+const navbarLinks = {};
+
+export { navbarLinks };
