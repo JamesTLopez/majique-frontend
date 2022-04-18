@@ -1,0 +1,58 @@
+@use "../../../styles/colors.scss";
+@use "../../../styles/breakpoints.scss";
+
+header {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  border-bottom: 1px solid #e7e4e4;
+  .logo-container {
+    width: 295px;
+    height: 95px;
+    max-width: 295px;
+    border-right: 1px solid #e7e4e4;
+    #logo {
+      font-family: "Merriweather", serif;
+      padding: 10px;
+      h2,
+      p {
+        text-align: center;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+  }
+  .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 25px;
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        margin-inline: 15px;
+        a {
+          font-size: 20px;
+          color: black;
+          text-decoration: none;
+        }
+      }
+      span {
+        font-weight: bold;
+        color: colors.$color-red;
+      }
+    }
+
+    .icons-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
