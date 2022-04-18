@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MdAccountCircle } from "react-icons/md";
-import { CgArrowTopLeftR, CgSize } from "react-icons/cg";
+import { CgArrowTopLeftR } from "react-icons/cg";
+import { BsTwitter, BsFacebook, BsSnapchat } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+
 import "./Home.scss";
 import { Man } from "../../mock-data/image-list";
 import Divider from "./components/Divider";
@@ -170,7 +173,63 @@ const Home: React.FC = () => {
           </div>
         </section>
         <Divider />
+        <section id="social-media">
+          <div className="social-wrapper">
+            <div className="title-container">
+              <h2>FIND US AT</h2>
+              <h3>@Majique</h3>
+            </div>
+            <div className="icon-container">
+              <BsTwitter size={"50px"} />
+              <AiFillInstagram size={"50px"} />
+              <BsFacebook size={"40px"} />
+              <BsSnapchat size={"40px"} />
+            </div>
+            <div className="bg">
+              <div className="sqr-container">
+                <div id="sqr-1"></div>
+                <div id="sqr-2"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <Divider />
       </main>
+      <footer>
+        <div className="footer-container">
+          <div className="logo">
+            <div id="logo">
+              <h2>MAJIQUE</h2>
+              <p>UNIQUE-FASHION-APPAREL</p>
+            </div>
+          </div>
+          <div className="links">
+            <div className="top-panel">
+              <ul>
+                <li>
+                  <Link to=""> Shop</Link>
+                </li>
+                <li>
+                  <Link to=""> About</Link>
+                </li>
+                <li>
+                  <Link to=""> Terms and Conditions</Link>
+                </li>
+                <li>
+                  <Link to=""> Account</Link>
+                </li>
+                <li>
+                  <Link to=""> Careers</Link>
+                </li>
+                <li>
+                  <Link to=""> Privacy Policy</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="bottom-panel"></div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

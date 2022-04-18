@@ -302,7 +302,7 @@ $page-margin: 20px;
         .text-container {
           p {
             opacity: 0.6;
-            font-size: 20px;
+            font-size: 25px;
             text-align: center;
           }
         }
@@ -430,6 +430,160 @@ $page-margin: 20px;
               background-color: black;
             }
           }
+        }
+      }
+    }
+
+    #social-media {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 73px;
+      .social-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: breakpoints.$breakpoint-desktop;
+        width: 100%;
+        min-height: 650px;
+        background-color: colors.$color-blue-dark-primary;
+        .title-container {
+          h2 {
+            opacity: 0.5;
+            font-size: 50px;
+            text-align: center;
+          }
+          h3 {
+            opacity: 0.5;
+            font-size: 30px;
+            text-align: center;
+          }
+        }
+        .icon-container {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 390px;
+          opacity: 0.6;
+        }
+        .bg {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          .box-container {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            #box_1 {
+              position: absolute;
+              bottom: 0px;
+              background-color: white;
+              width: 25px;
+              height: 25px;
+            }
+            #box_2 {
+              position: absolute;
+              bottom: 25px;
+              left: 25px;
+              background-color: white;
+              width: 20px;
+              height: 20px;
+            }
+          }
+          .sqr-container {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            #sqr-1 {
+              position: absolute;
+              bottom: 20px;
+              left: 20px;
+              width: 180px;
+              height: 180px;
+              background-color: #e8f3fb32;
+            }
+
+            #sqr-2 {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              width: 120px;
+              height: 120px;
+              background-color: #e8f3fb32;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000;
+    height: 465px;
+    .footer-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-self: center;
+      width: 100%;
+      max-width: breakpoints.$breakpoint-desktop;
+      .logo {
+        width: 30%;
+        #logo {
+          color: white;
+          padding: 10px;
+          h2,
+          p {
+            text-align: center;
+            margin: 0;
+          }
+
+          h2 {
+            font-size: 35px;
+          }
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+        .top-panel {
+          display: flex;
+          justify-content: center;
+          ul {
+            width: 100%;
+            padding: 0;
+            max-width: 660px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 70px);
+            justify-content: center;
+            align-items: center;
+            li {
+              a {
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+        .bottom-panel {
         }
       }
     }
