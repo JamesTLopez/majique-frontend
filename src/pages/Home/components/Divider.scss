@@ -1,0 +1,14 @@
+@use "../../../styles/colors.scss";
+@use "../../../styles/breakpoints.scss";
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 314px;
+  .line {
+    height: 5px;
+    width: breakpoints.$breakpoint-desktop;
+    background-color: colors.$color-pink-light-secondary;
+  }
+}
