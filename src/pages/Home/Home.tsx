@@ -97,7 +97,10 @@ const Home: React.FC = () => {
                 Malesuada morbi tempus, habitant turpis at facilisis mi. Iaculis
                 et praesent urna, semper orci condimentum. Aliquam facilisis
                 nibh duis tellus gravida. Condimentum pulvinar tellus diam vitae
-                nunc.
+                nunc.Curabitur vitae pretium ex. Proin accumsan purus eu
+                sagittis pretium. Nunc sagittis mi neque, sed rhoncus sapien
+                rhoncus id. Praesent hendrerit nisi enim, sed pharetra tortor
+                pretium vel.
               </p>
             </div>
             <div className="button-container">
@@ -108,6 +111,61 @@ const Home: React.FC = () => {
                   style={{ transform: "scaleX(-1)" }}
                 />
               </Link>
+            </div>
+          </div>
+        </section>
+        <Divider />
+        <section id="fits">
+          <div className="fits-wrapper">
+            <div className="title-container">
+              <h2>FITS</h2>
+            </div>
+            <div className="image-container">
+              <img
+                id="model-1"
+                src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+                alt="model-1"
+              />
+              <img
+                id="model-2"
+                src="https://images.unsplash.com/photo-1562121594-70a275d4b5e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+                alt="model-2"
+              />
+              <img
+                id="model-3"
+                src="https://images.unsplash.com/photo-1510951475896-ce8cacb1899f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+                alt="model-3"
+              />
+              <img
+                id="model-4"
+                src="https://images.unsplash.com/photo-1536243298747-ea8874136d64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxtb2RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                alt="model-4"
+              />
+            </div>
+          </div>
+        </section>
+        <Divider />
+        <section id="who-are-we">
+          <div className="who-wrapper">
+            <div className="title-container">
+              <h2>WHO ARE WE?</h2>
+              <h3>Our Story</h3>
+            </div>
+            <div className="description-container">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus sollicitudin donec fringilla nunc vel. Pharetra est
+                enim amet venenatis, sapien mauris at. Sem sed vestibulum, donec
+                tortor ullamcorper cursus. A est morbi scelerisque at. Odio
+                molestie senectus leo morbi dictum. Ultricies vitae, consectetur
+                leo pharetra accumsan.
+              </p>
+            </div>
+            <div className="logo-container">
+              <h3>MAJIQUE</h3>
+              <p>
+                <span>UNIQUE - FASHION - APPAREL</span>
+              </p>
             </div>
           </div>
         </section>
