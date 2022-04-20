@@ -1,7 +1,8 @@
 import React from "react";
+import "./FilterTab.scss";
 
-function FIlterTab() {
-  return <div>FIlterTab</div>;
+function FilterTab() {
+  return <div className="filter-container">FilterTab</div>;
 }
 
-export default FIlterTab;
+export default FilterTab;

@@ -1,0 +1,21 @@
+@use "../../styles/colors.scss";
+@use "../../styles/breakpoints.scss";
+
+.shop-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.productList-container {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+  .productList-wrapper {
+    margin-left: 400px;
+    padding: 20px;
+  }
+}
