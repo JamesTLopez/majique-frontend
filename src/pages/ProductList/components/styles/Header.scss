@@ -1,11 +1,14 @@
-@use "../../../styles/colors.scss";
-@use "../../../styles/breakpoints.scss";
+@use "../../../../styles/colors.scss";
+@use "../../../../styles/breakpoints.scss";
 
 header {
+  position: fixed;
+  z-index: 10;
   display: flex;
   justify-content: center;
   font-family: "Roboto Slab", serif;
   height: 96px;
+  width: 100%;
   border-bottom: 1px solid #e7e4e4;
   background-color: white;
   .header-wrapper {

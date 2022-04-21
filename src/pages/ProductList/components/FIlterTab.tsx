@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./FilterTab.scss";
+import "./styles/FilterTab.scss";
 
 function FilterTab() {
   return (

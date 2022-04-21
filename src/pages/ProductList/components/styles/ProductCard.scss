@@ -1,0 +1,19 @@
+.product-card {
+  height: 300px;
+  width: 300px;
+  margin: 28px;
+  .img-container {
+    height: 200px;
+    width: inherit;
+    img {
+      height: inherit;
+      width: inherit;
+      object-fit: cover;
+      background-position: center;
+    }
+  }
+  .text-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
