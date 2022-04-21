@@ -13,8 +13,10 @@ const ProductCard: React.FC<props> = ({ name, price, img }) => {
         <img src={img} alt={name} />
       </div>
       <div className="text-container">
-        <p>{name}</p>
-        <p>{price}</p>
+        <p>
+          <span>{name}</span>
+        </p>
+        <p>$ {price}</p>
       </div>
     </div>
   );

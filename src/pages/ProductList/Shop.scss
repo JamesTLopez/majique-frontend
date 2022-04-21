@@ -20,7 +20,8 @@
   flex-direction: column;
 
   .productList-wrapper {
-    margin-left: 400px;
+    margin-top: 96px;
+    margin-left: 300px;
     padding: 20px;
     .banner {
       width: 100%;
@@ -35,9 +36,8 @@
       }
     }
     .products {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
     }
   }
 }

@@ -4,7 +4,7 @@ import "./styles/Header.scss";
 
 function Header() {
   return (
-    <header>
+    <div className="header">
       <div className="header-wrapper">
         <div className="logo-container">
           <div id="logo">
@@ -40,7 +40,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
 

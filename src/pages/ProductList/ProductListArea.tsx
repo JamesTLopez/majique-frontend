@@ -60,7 +60,7 @@ const ProductListArea: React.FC = () => {
 
   return (
     <div className="productList-container">
-      <FilterTab />
+      <FilterTab section={params.id} />
 
       <div className="productList-wrapper">
         <div className="banner">

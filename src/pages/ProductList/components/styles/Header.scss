@@ -1,7 +1,7 @@
 @use "../../../../styles/colors.scss";
 @use "../../../../styles/breakpoints.scss";
 
-header {
+.header {
   position: fixed;
   z-index: 10;
   display: flex;
@@ -16,9 +16,13 @@ header {
     width: 100%;
     max-width: breakpoints.$breakpoint-desktop-xl;
     .logo-container {
-      width: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
       height: 95px;
-      min-width: 400px;
+      min-width: 300px;
+      border-right: 1px solid #e7e4e4;
 
       #logo {
         font-family: "Merriweather", serif;

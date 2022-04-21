@@ -2,11 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/FilterTab.scss";
 
-function FilterTab() {
+interface props {
+  section?: string;
+}
+
+const FilterTab: React.FC<props> = ({ section }) => {
   return (
     <div className="filter-container">
       <div className="breadcrumbs">
-        <h2>Men</h2>
+        <h2>{section}</h2>
       </div>
       <div className="Gender">
         <h3>Gender</h3>
@@ -40,6 +44,6 @@ function FilterTab() {
       </div>
     </div>
   );
-}
+};
 
 export default FilterTab;

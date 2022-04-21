@@ -1,6 +1,5 @@
 .product-card {
-  height: 300px;
-  width: 300px;
+  width: 250px;
   margin: 28px;
   .img-container {
     height: 200px;
@@ -15,5 +14,8 @@
   .text-container {
     display: flex;
     justify-content: space-between;
+    span {
+      font-weight: bold;
+    }
   }
 }
