@@ -12,19 +12,6 @@ const FilterTab: React.FC<props> = ({ section }) => {
       <div className="breadcrumbs">
         <h2>{section}</h2>
       </div>
-      <div className="Gender">
-        <h3>Gender</h3>
-        <ul>
-          <li>
-            <input type="checkbox" />
-            Women
-          </li>
-          <li>
-            <input type="checkbox" />
-            Men
-          </li>
-        </ul>
-      </div>
       <div className="Category">
         <h3>Category</h3>
         <ul>
