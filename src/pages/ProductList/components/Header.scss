@@ -15,7 +15,7 @@ header {
     .logo-container {
       width: 450px;
       height: 95px;
-      max-width: 450px;
+      min-width: 400px;
 
       #logo {
         font-family: "Merriweather", serif;

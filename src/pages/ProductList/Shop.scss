@@ -6,6 +6,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  .shop-container {
+    align-self: center;
+    width: 100%;
+    max-width: breakpoints.$breakpoint-desktop-xl;
+  }
 }
 
 .productList-container {
