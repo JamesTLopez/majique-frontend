@@ -1,6 +1,7 @@
 .product-card {
   width: 250px;
   margin: 28px;
+
   .img-container {
     height: 200px;
     width: inherit;
@@ -17,5 +18,9 @@
     span {
       font-weight: bold;
     }
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }

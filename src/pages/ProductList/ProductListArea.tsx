@@ -10,8 +10,7 @@ const ProductListArea: React.FC = () => {
   let { product } = useContext(Context);
   let params = useParams();
 
-  console.log(product);
-
+  console.log(params);
   return (
     <div className="productList-container">
       <FilterTab section={params.id} />
@@ -24,10 +23,11 @@ const ProductListArea: React.FC = () => {
           />
         </div>
         <div className="products">
-          {products.map((item): any => {
+          {product.products.map((item: any) => {
             return (
               <ProductCard
                 key={item.id}
+                itemId={item.id}
                 name={item.name}
                 price={item.price}
                 img={item.img}

@@ -6,9 +6,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: "Roboto Slab", serif;
   .shop-container {
     align-self: center;
     width: 100%;
+    height: inherit;
     max-width: breakpoints.$breakpoint-desktop-xl;
   }
 }
@@ -38,6 +40,93 @@
     .products {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+.product-detail-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .product-detail-wrapper {
+    flex: 1;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .product-section {
+      display: flex;
+      max-height: 700px;
+      width: 100%;
+      .img-container {
+        margin: 22.5px;
+        img {
+          background-position: center;
+          object-fit: cover;
+          border-radius: 25px;
+          max-height: 640px;
+          max-width: 560px;
+        }
+      }
+      .info-container {
+        margin: 22.5px;
+        display: flex;
+        flex-direction: column;
+        .product-title {
+          border-bottom: 1px solid #e7e4e4;
+          margin-bottom: 36px;
+          h1 {
+            margin-bottom: 0;
+          }
+          h3 {
+            margin: 0;
+            font-size: 34px;
+            color: #646363;
+          }
+          .shipping-field {
+            display: flex;
+            h4 {
+              color: #706e6e;
+            }
+            h5 {
+              padding-left: 20px;
+              color: #706e6e;
+              text-align: center;
+            }
+          }
+        }
+        .product-description {
+          h4 {
+            font-weight: normal;
+            color: rgba(0, 0, 0, 0.625);
+            margin: 0;
+            margin-bottom: 36px;
+          }
+          p {
+            color: rgba(0, 0, 0, 0.625);
+            margin: 0;
+          }
+        }
+        .button-container {
+          margin-top: 36px;
+          button {
+            border-radius: 10px;
+            color: white;
+            background-color: colors.$color-red;
+            letter-spacing: 1px;
+            font-size: 17px;
+            padding: 14px;
+            border-style: none;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
     }
   }
 }

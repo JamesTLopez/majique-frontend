@@ -15,19 +15,19 @@ function Header() {
         <div className="links-container">
           <ul>
             <li>
-              <Link to="men">Men</Link>
+              <Link to="products/men">Men</Link>
             </li>
             <li>
-              <Link to="Women">Women</Link>
+              <Link to="products/Women">Women</Link>
             </li>
             <li>
-              <Link to="Shoes">Shoes</Link>
+              <Link to="products/Shoes">Shoes</Link>
             </li>
             <li>
-              <Link to="Bags">Bag</Link>
+              <Link to="products/Bags">Bag</Link>
             </li>
             <li>
-              <Link to="Accessories">Accessories</Link>
+              <Link to="products/Accessories">Accessories</Link>
             </li>
             <li>
               <Link to="Accessories">
