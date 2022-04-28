@@ -60,16 +60,20 @@
 
     .product-section {
       display: flex;
+      height: 500px;
       max-height: 700px;
+      max-width: breakpoints.$breakpoint-desktop;
       width: 100%;
       .img-container {
         margin: 22.5px;
+        height: 100%;
+
         img {
           background-position: center;
           object-fit: cover;
+          height: 100%;
+          min-width: 500px;
           border-radius: 25px;
-          max-height: 640px;
-          max-width: 560px;
         }
       }
       .info-container {
