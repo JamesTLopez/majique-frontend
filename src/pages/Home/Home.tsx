@@ -19,7 +19,7 @@ const Home: React.FC = () => {
               <Link to="/">HOME</Link>
             </div>
             <div id="item">
-              <Link to="/shop">SHOP</Link>
+              <Link to="/shop/products/Men">SHOP</Link>
             </div>
           </div>
           <div id="nav_2">
@@ -58,7 +58,7 @@ const Home: React.FC = () => {
                 <h2>APPERAL</h2>
               </div>
               <div className="button-container">
-                <Link to="/shop">
+                <Link to="/shop/products/Men">
                   SHOP <CgArrowTopLeftR style={{ transform: "scaleX(-1)" }} />
                 </Link>
               </div>

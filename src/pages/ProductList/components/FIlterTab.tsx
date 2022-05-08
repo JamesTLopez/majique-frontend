@@ -16,16 +16,13 @@ const FilterTab: React.FC<props> = ({ section }) => {
         <h3>Category</h3>
         <ul>
           <li>
-            <Link to="/shop/products/hat">Hats</Link>
+            <Link to="/shop/products/Hats">Hats</Link>
           </li>
           <li>
-            <Link to="/shop/products/hair-accessories">Hair Accessories</Link>{" "}
+            <Link to="/shop/products/Perfume">Perfume</Link>
           </li>
           <li>
-            <Link to="/shop/products/perfume">Perfume</Link>
-          </li>
-          <li>
-            <Link to="/shop/products/bags">Bags</Link>
+            <Link to="/shop/products/Bags">Bags</Link>
           </li>
         </ul>
       </div>
