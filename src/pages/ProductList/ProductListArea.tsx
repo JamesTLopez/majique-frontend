@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import ProductCard from "./components/ProductCard";
 import FilterTab from "./components/FilterTab";
-import { products } from "../../mock-data/data";
 import "./Shop.scss";
 import Context from "../../store/context/ProductContext";
 
@@ -10,7 +9,6 @@ const ProductListArea: React.FC = () => {
   let { product } = useContext(Context);
   let params = useParams();
 
-  console.log(params);
   return (
     <div className="productList-container">
       <FilterTab section={params.id} />

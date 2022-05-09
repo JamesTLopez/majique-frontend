@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { BsCart } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./styles/Header.scss";
 
 function Header() {
@@ -8,6 +9,9 @@ function Header() {
   return (
     <div className="header">
       <div className="header-wrapper">
+        <div className="ham-container">
+          <GiHamburgerMenu size="36px" />
+        </div>
         <div className="logo-container" onClick={() => navigate("/")}>
           <div id="logo">
             <h2>MAJIQUE</h2>
@@ -37,9 +41,9 @@ function Header() {
               </Link>
             </li>
           </ul>
-          <div className="icons-container">
-            <BsCart size="36px" />
-          </div>
+        </div>
+        <div className="icons-container">
+          <BsCart size="36px" />
         </div>
       </div>
     </div>
